@@ -5,7 +5,9 @@ Assume there are 3 servers, server1, srever2, server3/
 
 [Install Varnish](https://github.com/eopXD/distributed-minio-with-varnish/wiki/Install-Varnish) on one of the server. Usually on the one with largest RAM, where VArnish needs space for caching.
 
-Copy `default.vcl` to `/etc/varnish/default.vcl` and configure the server ip and port.(For port minio's default is 9000)
+Copy `default.vcl` to `/etc/varnish/default.vcl` and configure the server ip and port.
+
+(For port minio's default is 9000)
 ```bash
 wget https://raw.githubusercontent.com/eopXD/distributed-,inio-with-varnish/varnish/default.vcl
 ```
@@ -19,3 +21,5 @@ VARNISH_LISTEN_PORT=80
 ```
 
 (Be reminded that the admin listen address is defaulted `127.0.0.1:6082`)
+
+For health-checking for backend server, [see here](https://github.com/eopXD/distributed-minio-with-varnish/wiki/varnish-health-check). 

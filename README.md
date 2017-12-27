@@ -5,5 +5,11 @@
 
 This is a template for setting a distributed minio on multi-server and do load-balancing through Varnish-cache.
 
+##### To-do list
+- [x] Basic template
+- [ ] Minio bucket notification with RabbitMQ template
+- [ ] Minio configuration template
+- [ ] Varnish's cache configuration template
+
 Check out the [wiki](https://github.com/eopXD/distributed-minio-with-varnish/wiki) for documents
 
