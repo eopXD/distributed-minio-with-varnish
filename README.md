@@ -13,4 +13,4 @@ This is a template for setting a distributed minio on multi-server and do load-b
 
 Check out the [wiki](https://github.com/eopXD/distributed-minio-with-varnish/wiki) for documents
 
-This repo is maintained by [eopXD](https://github.com/eopXD) and [ck20jimmy](), a project for [NTU-CTLD](http://ctld.ntu.edu.tw/).
+This repo is maintained by [eopXD](https://github.com/eopXD) and [ck20jimmy](https://github.com/ck20jimmy), a project for [NTU-CTLD](http://ctld.ntu.edu.tw/).
