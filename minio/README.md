@@ -6,7 +6,7 @@ We set 4 disks on each of the server.
 
 Download `distributed.sh` to each of the 3 servers, configure the ip address to your's.
 ```bash
-wget https://raw.githubusercontent.com/eopXD/distributed-minio-with-varnish/minio/distributed.sh 
+wget https://raw.githubusercontent.com/eopXD/distributed-minio-with-varnish/minio/master/distributed.sh 
 ```
 Let the script be executable.
 ```bash
