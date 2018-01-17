@@ -80,7 +80,7 @@ sub vcl_recv {
     # Typically you clean up the request here, removing cookies you don't need,
     # rewriting the request, etc.
 #	set req.backend_hint=foo.backend();
-#	set req.backend_hinf=bar.backend();
+#	set req.backend_hint=bar.backend();
 }
 sub vcl_backend_response {
     # Happens after we have read the response headers from the backend.
