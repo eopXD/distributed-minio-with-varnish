@@ -9,7 +9,7 @@ Copy `default.vcl` to `/etc/varnish/default.vcl` and configure the server ip and
 
 (For port minio's default is 9000)
 ```bash
-wget https://raw.githubusercontent.com/eopXD/distributed-,inio-with-varnish/varnish/default.vcl
+wget https://raw.githubusercontent.com/eopXD/distributed-minio-with-varnish/master/varnish/default.vcl
 ```
 2 methods is declared in `vcl_init`. Weighted load-balancing `foo` and Round-robin scheduling `bar`.
 
